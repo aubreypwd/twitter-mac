@@ -1,19 +1,19 @@
-# {APPNAME}
+# Twitter.com for Mac
 
 ![](screenshot.png)
 
-An (unofficial) native MacOS App for {APPNAME}.
+An (unofficial) native MacOS App for Twitter.com.
 
 # Install
 
-Navigate over to the [releases](https://github.com/aubreypwd/{app-slug}/releases) and download the latest version, or install via:
+Navigate over to the [releases](https://github.com/aubreypwd/twitter-mac/releases) and download the latest version, or install via:
 
 ## Homebrew Cask
 
 ```bash
 brew tap aubreypwd/homebrew-cask
 brew update
-brew cask install {app-slug}
+brew cask install twitter
 ```
 
 # Development
