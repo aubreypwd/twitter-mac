@@ -8,7 +8,7 @@
     "installsupport": "echo 'Run: [brew install graphicsmagick imagemagick] for additional DMG support.'",
     "postinstall": "npm run installsupport",
     "build": "npm run nativefier",
-    "nativefier": "./node_modules/.bin/nativefier --name 'Twitter' --platform 'Mac' --min-width 591 --width 591 --height 979 --flash --verbose --darwin-dark-mode-support --icon ./icon.png --internal-urls '.*(twitter)*.' 'https://twitter.com/home' ./build",
+    "nativefier": "./node_modules/.bin/nativefier --name 'Twitter' --platform 'Mac' --min-width 591 --width 591 --height 979 --flash --verbose --darwin-dark-mode-support --icon ./icon.png 'https://twitter.com/home' ./build",
     "dist": "npm run build && mkdir -p dist/ && ./node_modules/.bin/create-dmg './build/Twitter-darwin-x64/Twitter.app' --overwrite --dmg-title='Twitter' --identity='Aubrey Portwood' ./dist"
   },
   "author": "Aubrey Portwood",
