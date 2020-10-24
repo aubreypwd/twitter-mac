@@ -1,6 +1,6 @@
 # Twitter.com for Mac
 
-![](screenshot.png)
+<p style="text-align: center"><img src="screenshot.png"></p>
 
 An (unofficial) native MacOS App for Twitter.com.
 
