@@ -1,6 +1,8 @@
 # Twitter.com for Mac
 
-<p style="text-align: center"><img src="screenshot.png"></p>
+<p style="text-align: center">
+<img src="screenshot.png" style="float:right; width: 35%">
+</p>
 
 An (unofficial) native MacOS App for Twitter.com.
 
