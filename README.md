@@ -8,26 +8,9 @@ An (unofficial) native MacOS App for Twitter.com.
 
 # Install
 
-## Homebrew Cask
+Download the `.dmg` in [releases](https://github.com/aubreypwd/twitter-mac/releases/latest) and install per usual, or install via:
 
-### Install
-
-```bash
-brew tap aubreypwd/homebrew-cask
-brew update
-brew cask install twitter
-```
-
-### Upgrade
-
-```
-brew update
-brew upgrade twitter
-```
-
-## Download
-
-Or download the `.dmg` in [releases](https://github.com/aubreypwd/twitter-mac/releases/latest) and install per usual.
+- [Homebrew...](https://github.com/aubreypwd/homebrew-cask#twitter)
 
 ---
 
